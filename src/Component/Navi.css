@@ -1,0 +1,54 @@
+/* Navi.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3;
+}
+
+/* NavbarBrand için özel stil */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* NavbarToggler için özel stil */
+.navbar-toggler {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #007bff;
+}
+
+/* UncontrolledDropdown için özel stil */
+.uncontrolled-dropdown {
+  position: relative; /* Konumu belirtilen hale getirin */
+  margin-right: 20px; /* Sağ kenardan boşluk */
+}
+
+/* DropdownMenu için özel stil */
+.dropdown-menu {
+  right: 0; /* Menüyü sağa yapıştırın */
+  left: auto;
+}
+
+/* DropdownItem için özel stil */
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+/* Badge için özel stil */
+.badge {
+  cursor: pointer;
+  margin-left: 10px;
+}
